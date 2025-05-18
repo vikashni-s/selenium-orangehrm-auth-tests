@@ -1,4 +1,4 @@
-# OrangeHRM Login Automation using Selenium
+# OrangeHRM Login Automation using Selenium & TestNG
 
 This project automates the login functionality for the OrangeHRM demo site:  
 👉 [https://opensource-demo.orangehrmlive.com](https://opensource-demo.orangehrmlive.com)
@@ -7,23 +7,36 @@ This project automates the login functionality for the OrangeHRM demo site:
 - Java
 - Selenium WebDriver
 - ChromeDriver
-- TestNG or JUnit (optional for future)
+- TestNG
 - WebDriverManager (recommended)
 
 ## ✅ Test Scenarios
 - Valid login
 - Invalid username/password
 - Empty fields
+- Username with whitespace
 - Case sensitivity
-- Special characters
+- Special characters in credentials
 
 ## 📦 How to Run
 1. Clone this repository
-2. Open in your IDE (e.g., IntelliJ or Eclipse)
-3. Make sure ChromeDriver or WebDriverManager is set up
-4. Run `LoginPage.java`
+2. Open the project in Eclipse or IntelliJ
+3. Ensure ChromeDriver is set up or use WebDriverManager
+4. Run the TestNG test file (`LoginTest.java`) as a TestNG test
+
+## 📁 Project Structure
+- **`pages/`** – Page Object Model classes
+- **`tests/`** – Test classes using TestNG
+- **`drivers/`** – WebDriver setup (optional if using WebDriverManager)
 
 ## 💡 Future Improvements
-- Add assertions using TestNG
-- Use WebDriverWait instead of Thread.sleep
-- Data-driven testing (CSV/Excel)
+- Replace `Thread.sleep()` with `WebDriverWait`
+- Add logging with Log4j or SLF4J
+- Implement data-driven testing using Excel/CSV
+- Include test reporting (e.g., ExtentReports)
+
+## ✅ Status
+- [x] Login functionality automated
+- [x] TestNG integrated
+- [ ] Data-driven testing
+- [ ] Reporting
