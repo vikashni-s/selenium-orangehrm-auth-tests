@@ -29,6 +29,14 @@ This project automates the login functionality for the OrangeHRM demo site:
 - **`tests/`** – Test classes using TestNG
 - **`drivers/`** – WebDriver setup (optional if using WebDriverManager)
 
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login Page](screenshot/Result1.png)
+
+### ✅ Dashboard
+![Login Page](screenshot/Result2.png)
+
 ## 💡 Future Improvements
 - Replace `Thread.sleep()` with `WebDriverWait`
 - Add logging with Log4j or SLF4J
