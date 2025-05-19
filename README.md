@@ -22,7 +22,7 @@ This project automates the login functionality for the OrangeHRM demo site:
 1. Clone this repository
 2. Open the project in Eclipse or IntelliJ
 3. Ensure ChromeDriver is set up or use WebDriverManager
-4. Run the TestNG test file (`LoginTest.java`) as a TestNG test
+4. Run the TestNG test file (`Loginpage.java`) as a TestNG test
 
 ## 📁 Project Structure
 - **`pages/`** – Page Object Model classes
